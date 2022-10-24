@@ -1,4 +1,13 @@
 package app.model;
 
-public abstract class Animal {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+public  abstract class Animal {
+
+
+
+
+
 }
