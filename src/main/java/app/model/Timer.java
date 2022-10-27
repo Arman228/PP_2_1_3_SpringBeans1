@@ -14,6 +14,7 @@ public class Timer {
     }
 
     private Long nanoTime = System.nanoTime();
+
     @Qualifier
     public Long getTime() {
         System.out.println(23234);

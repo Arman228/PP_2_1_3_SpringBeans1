@@ -21,7 +21,7 @@ public class AppConfig {
     @Bean(name = "timer")
     public Timer getMi() {
         Timer timer = new Timer();
-        return timer;
+        return new Timer();
 
 
     }

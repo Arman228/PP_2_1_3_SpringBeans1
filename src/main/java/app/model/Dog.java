@@ -14,8 +14,7 @@ public class Dog  extends Animal {
     public String getSob() {
         return sob;
     }
-//@Autowired
-   @Qualifier("dog")
+
     public void setSob(String sob) {
         System.out.println("Set sobak");
     }
